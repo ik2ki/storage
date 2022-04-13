@@ -1,0 +1,38 @@
+3.
+a)
+Select title
+FROM Written_by w INNER JOIN Book b
+ON w.ISBN = b.ISBN
+WHERE w.name='Rolling J.K' AND b.year=2010;
+b)
+Select title
+FROM Book
+WHERE price>=10000 AND ISBN in
+(Select w.ISBN FROM Written_by w INNER JOIN Published_by p
+ON w.ISBN = p.ISBN
+WHERE w.name='C%' AND p.name='Harry');
+c)
+Select title
+FROM Book b INNER JOIN Written_by w
+ON b.ISBN=w.ISBN
+WHERE w.name='brown T.I' AND b.ISBN in
+(
+select ISBN
+From Stocks
+group by ISBN
+having sum(num)>1000
+);
+d)
+Select title, price
+FROM Contains c INNER JOIN Book b
+ON c.ISBN = b.ISBN
+WHERE c.basketid='CCC003';
+e)
+Select title
+FROM Book
+WHERE ISBN in
+(Select ISBN 
+FROM Contains c INNER JOIN Basket_of b
+ON b.basketid=c.basketid
+WHERE c.ISBN in (Select ISBN FROM Stocks WHERE num=0) AND b.email in (Select email FROM Customer WHERE Customer.name='Cristal'));
+

@@ -1,0 +1,5 @@
+LOAD DATA 
+INFILE 'C:\Enroll.csv'
+APPEND INTO TABLE Enroll
+FIELDS TERMINATED BY ','
+(sno,cno,grade,exam)

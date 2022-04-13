@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Shopping_basket.csv'
+APPEND INTO TABLE Shopping_basket
+FIELDS TERMINATED BY ','
+(basketid)

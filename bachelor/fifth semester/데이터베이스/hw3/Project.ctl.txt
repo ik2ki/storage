@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Project.csv'
+APPEND INTO TABLE Project
+FIELDS TERMINATED BY ','
+(pnumber,pname,plocation)

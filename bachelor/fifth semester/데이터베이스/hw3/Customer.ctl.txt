@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Customer.csv'
+APPEND INTO TABLE Customer
+FIELDS TERMINATED BY ','
+(email,name,address,phone)

@@ -1,0 +1,20 @@
+<%@ page contentType="text/html; charset=euc-kr" %>
+<%@ page import="java.sql.*" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+		<title>Data 삽입</title>
+	</head>
+	<body>
+		<p>Lecture 테이블에 레코드 삽입</p>
+		<form name="form1" method="post" action="insertLecture.jsp">
+			<p>코스번호 : <input type="text" name="cno"></p>
+			<p>교수번호 : <input type="text" name="pno"></p>
+			<p>강의시간 : <input type="text" name="lec_time"></p>
+			<p>강의실 : <input type="text" name="room"></p>
+			<p><input type="submit" name="Submit" value="보내기"></p>
+		</form>
+	</body>
+</html>

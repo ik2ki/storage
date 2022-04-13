@@ -1,0 +1,250 @@
+2021.07.23-15:27:34.279[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.23-15:27:34.602[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.23-15:27:34.603[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.23-15:27:34.603[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.23-15:27:34.603[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.23-15:32:17.475[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.23-15:32:17.832[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.23-15:32:17.833[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.23-15:32:17.833[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.23-15:32:17.833[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.23-15:36:17.951[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.23-15:36:18.148[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.23-15:36:18.149[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.23-15:36:18.150[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.23-15:36:18.150[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.23-15:39:11.782[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.23-15:39:12.003[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.23-15:39:12.005[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.23-15:39:12.005[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.23-15:39:12.005[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.23-15:42:38.388[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.23-15:42:38.611[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.23-15:42:38.613[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.23-15:42:38.613[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.23-15:42:38.613[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.23-16:16:09.370[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.23-16:16:09.757[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.23-16:16:09.758[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.23-16:16:09.758[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.23-16:16:09.759[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.23-17:07:14.345[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.23-17:07:14.717[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.23-17:07:14.718[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.23-17:07:14.718[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.23-17:07:14.719[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-14:54:18.964[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-14:54:19.326[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-14:54:19.327[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-14:54:19.327[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-14:54:19.327[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-15:03:44.876[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-15:03:45.273[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-15:03:45.274[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-15:03:45.274[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-15:03:45.274[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-15:21:32.327[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-15:21:32.726[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-15:21:32.736[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-15:21:32.736[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-15:21:32.736[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-15:32:39.196[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-15:32:39.556[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-15:32:39.558[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-15:32:39.558[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-15:32:39.559[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-15:44:25.223[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-15:44:25.593[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-15:44:25.594[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-15:44:25.595[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-15:44:25.595[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-15:53:42.322[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-15:53:42.718[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-15:53:42.719[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-15:53:42.719[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-15:53:42.719[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-16:05:29.282[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-16:05:29.643[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-16:05:29.644[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-16:05:29.645[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-16:05:29.645[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-16:31:29.343[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-16:31:29.684[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-16:31:29.685[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-16:31:29.686[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-16:31:29.686[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-16:54:29.640[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-16:54:29.841[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-16:54:29.842[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-16:54:29.843[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-16:54:29.843[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.24-17:00:46.353[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.24-17:00:46.720[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.24-17:00:46.721[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.24-17:00:46.722[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.24-17:00:46.722[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-13:52:29.178[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-13:52:29.557[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-13:52:29.562[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-13:52:29.562[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-13:52:29.562[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-13:58:09.013[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-13:58:09.306[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-13:58:09.307[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-13:58:09.308[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-13:58:09.308[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-14:09:25.540[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-14:09:25.761[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-14:09:25.762[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-14:09:25.763[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-14:09:25.763[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-14:15:17.511[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-14:15:17.744[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-14:15:17.745[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-14:15:17.746[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-14:15:17.746[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-14:27:27.834[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-14:27:28.249[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-14:27:28.250[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-14:27:28.251[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-14:27:28.251[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-14:36:33.023[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-14:36:33.590[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-14:36:33.592[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-14:36:33.592[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-14:36:33.593[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-14:42:37.923[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-14:42:38.345[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-14:42:38.346[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-14:42:38.347[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-14:42:38.347[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-14:48:24.067[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-14:48:24.447[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-14:48:24.448[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-14:48:24.449[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-14:48:24.449[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-14:59:49.425[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-14:59:50.270[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-14:59:50.276[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-14:59:50.279[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-14:59:50.279[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-15:06:47.962[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-15:06:48.402[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-15:06:48.403[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-15:06:48.404[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-15:06:48.404[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-15:15:55.276[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-15:15:55.681[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-15:15:55.682[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-15:15:55.683[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-15:15:55.683[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-15:23:50.145[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-15:23:50.519[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-15:23:50.521[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-15:23:50.521[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-15:23:50.521[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-15:30:51.116[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-15:30:51.543[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-15:30:51.547[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-15:30:51.547[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-15:30:51.547[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.25-15:40:19.740[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.25-15:40:20.137[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.25-15:40:20.138[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.25-15:40:20.139[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.25-15:40:20.139[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.28-15:10:18.480[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.28-15:10:18.840[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.28-15:10:18.841[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.28-15:10:18.842[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.28-15:10:18.842[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.28-16:19:50.357[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.28-16:19:50.795[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.28-16:19:50.796[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.28-16:19:50.796[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.28-16:19:50.796[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.28-16:24:32.927[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.28-16:24:33.177[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.28-16:24:33.178[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.28-16:24:33.178[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.28-16:24:33.178[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-14:46:02.428[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-14:46:02.759[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-14:46:02.762[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-14:46:02.763[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-14:46:02.763[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-14:50:36.379[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-14:50:36.581[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-14:50:36.583[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-14:50:36.583[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-14:50:36.583[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-14:58:43.027[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-14:58:43.436[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-14:58:43.437[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-14:58:43.437[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-14:58:43.437[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:01:53.530[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:01:53.759[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:01:53.760[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:01:53.760[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:01:53.760[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:06:31.301[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:06:31.490[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:06:31.491[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:06:31.491[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:06:31.491[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:11:32.256[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:11:32.659[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:11:32.661[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:11:32.661[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:11:32.661[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:16:40.663[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:16:40.963[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:16:40.964[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:16:40.964[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:16:40.965[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:20:23.644[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:20:23.872[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:20:23.873[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:20:23.874[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:20:23.874[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:33:01.627[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:33:01.835[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:33:01.836[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:33:01.837[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:33:01.837[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:34:33.823[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:34:34.010[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:34:34.011[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:34:34.011[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:34:34.011[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:37:23.832[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:37:24.029[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:37:24.030[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:37:24.030[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:37:24.030[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:39:37.532[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:39:37.739[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:39:37.740[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:39:37.741[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:39:37.741[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:43:16.855[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:43:17.269[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:43:17.270[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:43:17.270[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:43:17.271[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.07.31-15:47:58.576[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.07.31-15:47:58.983[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.07.31-15:47:58.984[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.07.31-15:47:58.984[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.07.31-15:47:58.984[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.08.01-13:58:44.180[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.08.01-13:58:44.562[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.08.01-13:58:44.563[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.08.01-13:58:44.563[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.08.01-13:58:44.563[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3
+2021.08.01-14:04:14.512[90m debug[39m [caliper] [rateControl.js] 	Constructed a winston logger with the specified settings
+2021.08.01-14:04:14.884[33m warn [39m [caliper] [bind] 	Working directory not specified. Using "/home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc"
+2021.08.01-14:04:14.885[32m info [39m [caliper] [bind] 	Binding for fabric@2.2. This might take some time...
+2021.08.01-14:04:14.885[32m info [39m [caliper] [bind] 	Using working directory: /home/h2kim/caliper-benchmarks/benchmarks/api/fabric/asset-enc
+2021.08.01-14:04:14.885[32m info [39m [caliper] [bind] 	Calling npm with: install fabric-network@2.2.3 fabric-ca-client@2.2.3

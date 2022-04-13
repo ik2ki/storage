@@ -1,0 +1,5 @@
+LOAD DATA 
+INFILE 'C:\Student.csv'
+APPEND INTO TABLE Student
+FIELDS TERMINATED BY ','
+(sno,sname,year,dept,pno)

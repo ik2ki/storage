@@ -1,0 +1,5 @@
+LOAD DATA 
+INFILE 'c:\Professor.csv'
+APPEND INTO TABLE Professor
+FIELDS TERMINATED BY ','
+(pno, pname, pmajor, pdept)

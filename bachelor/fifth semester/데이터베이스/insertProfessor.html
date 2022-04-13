@@ -1,0 +1,37 @@
+<%@ page contentType="text/html; charset=utf-8" %>
+<%@ page import="java.sql.*" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		// 새창 띄우기 함수 정의
+		<script type="text/javascript">
+		/*
+ 		* 우편번호 찾기 창 열기
+ 		* window.open() 메서드 사용
+ 		*/
+		function FindZip(){
+ 			window.open('searchZip.jsp', 'srchZip', 'scrollbars=yes,width=400,height=200,resizable=1');
+		}
+		</script>
+		<title>회원가입</title>
+	</head>
+	<body>
+		<p>회원 가입</p>
+		<form name="form1" method="post" action="insertMember.jsp">
+			<p>회원아이디 : <input type="text" name="meberId" maxlength=12 size=12><input type="submit" name="idCheck" value="아이디체크"></p>
+			<p>비밀번호: <input type="password" name="memberPassword" maxlength=15 size=15></p>
+			<p>이름 : <input type="text" name="memberName" maxlength=15 size=15></p>
+			<p>주민등록번호 : <input type="text" name="sno1" maxlength=6 size=6>-<input type="password" name="sno2" maxlength=7 size=7></p>
+			<p>전화번호 : <input type="text" name="tel1" maxlength=3 size=3>-<input type="text" name="tel2" maxlength=4 size=4>-<input type="text" name="tel3" maxlength=4 size=4></p>
+			<form>
+			<input name="zip" type="text" id="zip" value='' size="7" maxlength="7" readonly>
+				<img src="images/post.gif" alt="우편번호 검색" width="91" height="22" border="0" align="middle" class="linkP" onclick="javascript:FindZip();">('우편번호검색'버튼을 사용해 입력해주세요)
+			<br>
+			<input name="address1" type="text" size="30" maxlength="30" readonly>
+			<br>
+			<input name="address2" type="text" size="30" maxlength="30">
+			</form>
+			<p><input type="submit" name="Submit" value="회원가입"><input type="submit" name="Submit" value="취소"></p>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Employee.csv'
+APPEND INTO TABLE Employee
+FIELDS TERMINATED BY '.'
+(ssn,fname,lname,bdate,address,sex,salary,superssn,dno)

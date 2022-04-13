@@ -1,0 +1,5 @@
+LOAD DATA 
+INFILE 'C:\Course.csv'
+APPEND INTO TABLE Course
+FIELDS TERMINATED BY ','
+(cno, cname, credit, sessions)

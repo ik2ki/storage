@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+
+  <body>
+    <div class="c_container">      
+      <h1>createCar Page</h1>      
+    </div>
+    
+    <div class="c_container">        
+      <button id="btn_queryRecv">Query Sale Receivable</button> <br>
+        <div id="recvresultwindow">
+          <table id="recvTbl" width="100%" class="table table-bordered table-hover text-center">
+            <thead>
+              <tr>
+                <th>Select</th>
+                <th>Recv.Number</th>
+                <th>Recv.DealPrice</th>
+                <th>Recv.IssueRate</th>
+                <th>Recv.OwnerName</th>
+                <th>Recv.ExpireDate</th>
+                <th>Recv.IsGuarantee</th>
+              </tr>
+            </thead>
+            <tbody id="recvTbody">
+            </tbody>
+          </table>
+        </div>
+        Request.Number <input type="text" id="inp_reqno"> <br>
+        Request.Org <input type="text" id="inp_orgno"> <br>
+        Request.Price <input type="text" id="inp_reqprice"> <br>
+        Request.Date <input type="date" id="inp_reqdate"> <br>
+        <button id="btn_createReqPurchase">Create a Request Purchase</button>
+        
+        <div id="resultwindow">
+            <h2>Fabcar Query Result</h2>
+            <div id="queryresult">
+                <p>whatwhat</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+
+<script>
+    $("#resultwindow").hide()
+    $("#recvresultwindow").hide()
+    $("#btn_queryRecv").click(function(){
+      $.get("/api/querySaleRecvs", function(data, status){
+        $("#recvresultwindow").show()
+        $("#recvTbody").empty()
+        for(var i=0; i < data.length; i++){
+          var html='';
+          var radiostr=JSON.stringify(data[i].Key).replace(/"/g,"")
+          html += '<tr>';
+          html += '<td><input type="radio" id="radio_'+radiostr+'" name="group" /></td>';
+          html += '<td>'+JSON.stringify(data[i].Key)+'</td>';
+          html += '<td>'+JSON.stringify(data[i].Record.dealprice)+'</td>';
+          html += '<td>'+JSON.stringify(data[i].Record.issuerate)+'</td>';
+          html += '<td>'+JSON.stringify(data[i].Record.ownername)+'</td>';
+          html += '<td>'+JSON.stringify(data[i].Record.expiredate)+'</td>';
+          html += '<td>'+JSON.stringify(data[i].Record.isguarantee)+'</td>';
+          html += '</tr>';
+          $("#recvTbody").append(html);
+        }
+      })
+    })
+    $("#btn_createReqPurchase").click(function(){
+      const _reqcno = $("#inp_reqno").val()
+      var selectbox = $("input[name=group]:checked");
+      var tr = selectbox.parent().parent().eq(0);
+      var td = tr.children();
+      const _recvno = td.eq(1).text().replace(/\"/g,"")
+      const _reqorg = $("#inp_orgno").val()
+      const _reqprice = $("#inp_reqprice").val()
+      const _reqdate = $("#inp_reqdate").val()
+      const _reqstate = "Req"
+      $.post("/api/createReqPurchase",{reqcno: _reqcno, recvno: _recvno, reqorg: _reqorg, reqprice: _reqprice, reqdate: _reqdate, reqstate: _reqstate} ,function(data, status){            
+          $("#resultwindow").show()
+          $("#queryresult").empty()            
+          $("#queryresult").append(status)
+          $("#queryresult").append("<br>")
+        })
+    })
+</script>

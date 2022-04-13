@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Basket_of.csv'
+APPEND INTO TABLE Basket_of
+FIELDS TERMINATED BY ','
+(email,basketid)

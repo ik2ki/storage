@@ -1,0 +1,41 @@
+CREATE TABLE Department(
+	dnumber INT NOT NULL,
+	dname VARCHAR2(25),
+	mgrstartdate VARCHAR2(15),
+	dlocation VARCHAR2(30),
+	CONSTRAINT d_num PRIMARY KEY(dnumber)
+);
+
+CREATE TABLE Project(
+	pnumber INT NOT NULL,
+	pname VARCHAR2(15),
+	plocation VARCHAR2(30),
+	CONSTRAINT p_num PRIMARY KEY(pnumber)
+);
+
+CREATE TABLE Employee(
+	ssn INT NOT NULL,
+	fname VARCHAR2(15),
+	lname VARCHAR2(15),
+	bdate VARCHAR2(12),
+	address VARCHAR2(30),
+	sex VARCHAR2(6),
+	salary INT,
+	superssn INT,
+	dno INT,
+	CONSTRAINT ssn PRIMARY KEY(ssn),
+	CONSTRAINT dno FOREIGN KEY(dno)
+		REFERENCES Department(dnumber)
+);
+
+CREATE TABLE Works_on
+(
+	ssn INT NOT NULL,
+	pnumber INT NOT NULL,
+	hours INT,
+	CONSTRAINT pro_work FOREIGN KEY(pnumber)
+		REFERENCES Project(pnumber),
+	CONSTRAINT emp_work FOREIGN KEY(ssn)
+		REFERENCES Employee(ssn),
+	CONSTRAINT work_pk PRIMARY KEY(ssn, pnumber)
+);

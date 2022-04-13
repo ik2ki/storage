@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Contains.csv'
+APPEND INTO TABLE Contains
+FIELDS TERMINATED BY ','
+(basketid,ISBN,num)

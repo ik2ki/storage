@@ -1,0 +1,65 @@
+LOAD DATA
+INFILE 'C:\Warehouse.csv'
+APPEND INTO TABLE Warehouse
+FIELDS TERMINATED BY ','
+(code,address,phone)
+
+LOAD DATA
+INFILE 'C:\Author.csv'
+APPEND INTO TABLE Author
+FIELDS TERMINATED BY ','
+(name,address,url)
+
+LOAD DATA
+INFILE 'C:\Publisher.csv'
+APPEND INTO TABLE Publisher
+FIELDS TERMINATED BY ','
+(name,address,phone,url)
+
+LOAD DATA
+INFILE 'C:\Customer.csv'
+APPEND INTO TABLE Customer
+FIELDS TERMINATED BY ','
+(email,name,address,phone)
+
+LOAD DATA
+INFILE 'C:\Book.csv'
+APPEND INTO TABLE Book
+FIELDS TERMINATED BY ','
+(ISBN,title,year,price)
+
+LOAD DATA
+INFILE 'C:\Stocks.csv'
+APPEND INTO TABLE Stocks
+FIELDS TERMINATED BY ','
+(ISBN,code,num)
+
+LOAD DATA
+INFILE 'C:\Written_by.csv'
+APPEND INTO TABLE Written_by
+FIELDS TERMINATED BY ','
+(name,address,ISBN)
+
+LOAD DATA
+INFILE 'Published_by.csv'
+APPEND INTO TABLE Published_by
+FIELDS TERMINATED BY ','
+(name,ISBN)
+
+LOAD DATA
+INFILE 'C:\Shopping_basket.csv'
+APPEND INTO TABLE Shopping_basket
+FIELDS TERMINATED BY ','
+(basketid)
+
+LOAD DATA
+INFILE 'C:\Basket_of.csv'
+APPEND INTO TABLE Basket_of
+FIELDS TERMINATED BY ','
+(email,basketid)
+
+LOAD DATA
+INFILE 'C:\Contains.csv'
+APPEND INTO TABLE Contains
+FIELDS TERMINATED BY ','
+(basketid,ISBN,num)

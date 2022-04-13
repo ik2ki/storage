@@ -1,0 +1,5 @@
+LOAD DATA 
+INFILE 'C:\Lecture.csv'
+APPEND INTO TABLE Lecture
+FIELDS TERMINATED BY ','
+(cno,pno,lec_time,room)

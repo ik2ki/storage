@@ -1,0 +1,95 @@
+CREATE TABLE Warehouse(
+	code VARCHAR2(15) NOT NULL,
+	address VARCHAR2(30),
+	phone VARCHAR2(20),
+	CONSTRAINT ware_pk PRIMARY KEY(code)
+);
+
+CREATE TABLE Author(
+	name VARCHAR2(55) NOT NULL,
+	address VARCHAR2(35) NOT NULL,
+	url VARCHAR2(40),
+	CONSTRAINT author_pk PRIMARY KEY(name, address)
+);
+
+CREATE TABLE Publisher(
+	name VARCHAR2(25) NOT NULL,
+	address VARCHAR2(35),
+	phone VARCHAR2(15),
+	url VARCHAR2(40),
+	CONSTRAINT pub_pk PRIMARY KEY(name)
+);
+
+CREATE TABLE Customer(
+	email VARCHAR2(30) NOT NULL,
+	name VARCHAR2(30),
+	address VARCHAR2(30),
+	phone VARCHAR2(20),
+	CONSTRAINT cus_pk PRIMARY KEY(email)
+);
+
+CREATE TABLE Book(
+	ISBN VARCHAR2(15) NOT NULL,
+	title VARCHAR2(80),
+	year INT,
+	price INT,
+	CONSTRAINT book_pk PRIMARY KEY(ISBN)
+);
+
+CREATE TABLE Stocks(
+	ISBN VARCHAR2(15) NOT NULL,
+	code VARCHAR2(15) NOT NULL,
+	num INT,
+	CONSTRAINT book_stock_fk FOREIGN KEY(ISBN)
+		REFERENCES Book(ISBN),
+	CONSTRAINT ware_stock_fk FOREIGN KEY(code)
+		REFERENCES Warehouse(code),
+	CONSTRAINT stock_pk PRIMARY KEY(ISBN, code)
+);
+
+CREATE TABLE Written_by(
+	name VARCHAR2(55) NOT NULL,
+	address VARCHAR2(35) NOT NULL,
+	ISBN VARCHAR2(15) NOT NULL,
+	CONSTRAINT aut_wri_fk FOREIGN KEY(name,address)
+		REFERENCES Author(name,address),
+	CONSTRAINT book_wri_fk FOREIGN KEY(ISBN)
+		REFERENCES Book(ISBN),
+	CONSTRAINT wri_pk PRIMARY KEY(name, address, ISBN)
+);
+
+CREATE TABLE Published_by(
+	name VARCHAR2(25) NOT NULL,
+	ISBN VARCHAR2(15) NOT NULL,
+	CONSTRAINT pub_pub_fk FOREIGN KEY(name)
+		REFERENCES Publisher(name),
+	CONSTRAINT book_pub_fk FOREIGN KEY(ISBN)
+		REFERENCES Book(ISBN),
+	CONSTRAINT pubished_pk PRIMARY KEY(name,ISBN)
+);
+
+CREATE TABLE Shopping_basket(
+	basketid VARCHAR2(20) NOT NULL,
+	CONSTRAINT shop_pk PRIMARY KEY(basketid)
+);
+
+CREATE TABLE Basket_of(
+	email VARCHAR2(30) NOT NULL,
+	basketid VARCHAR2(20) NOT NULL,
+	CONSTRAINT cus_bask_fk FOREIGN KEY(email)
+		REFERENCES Customer(email),
+	CONSTRAINT sho_bask_fk FOREIGN KEY(basketid)
+		REFERENCES Shopping_basket(basketid),
+	CONSTRAINT bask_pk PRIMARY KEY(email, basketid)
+);
+
+CREATE TABLE Contains(
+	basketid VARCHAR2(20) NOT NULL,
+	ISBN VARCHAR2(15) NOT NULL,
+	num INT,
+	CONSTRAINT shop_con_fk FOREIGN KEY(basketid)
+		REFERENCES Shopping_basket(basketid),
+	CONSTRAINT book_con_fk FOREIGN KEY(ISBN)
+		REFERENCES Book(ISBN),
+	CONSTRAINT con_pk PRIMARY KEY(basketid, ISBN)
+);

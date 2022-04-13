@@ -1,0 +1,50 @@
+CREATE TABLE Professor(
+	pno INT NOT NULL,
+	pname VARCHAR2(30),
+	pmajor VARCHAR2(8),
+	pdept VARCHAR2(8),
+	CONSTRAINT pno PRIMARY KEY(pno)
+);
+
+CREATE TABLE Course(
+	cno VARCHAR2(8) NOT NULL,
+	cname VARCHAR2(30),
+	credit VARCHAR2(8),
+	sessions VARCHAR2(8),
+	CONSTRAINT cno PRIMARY KEY(cno)
+);
+
+CREATE TABLE Student(
+	sno INT NOT NULL,
+	pno INT,
+	sname VARCHAR2(30),
+	year INT,
+	dept VARCHAR2(8),
+	CONSTRAINT sno PRIMARY KEY(sno),
+	CONSTRAINT pro_stu_fk FOREIGN KEY(pno)
+		REFERENCES Professor(pno)	
+);
+
+CREATE TABLE Enroll(
+	sno INT NOT NULL,
+	cno VARCHAR2(8) NOT NULL,
+	grade VARCHAR2(2),
+	exam INT,
+	CONSTRAINT cou_en_fk FOREIGN KEY(cno)
+		REFERENCES Course(cno),
+	CONSTRAINT stu_en_fk FOREIGN KEY(sno)
+		REFERENCES Student(sno),
+	CONSTRAINT en_pk PRIMARY KEY(cno, sno)
+);
+
+CREATE TABLE Lecture(
+	cno VARCHAR2(8) NOT NULL,
+	pno INT NOT NULL,
+	lec_time VARCHAR2(15),
+	room VARCHAR2(8),
+	CONSTRAINT cou_lec_fk FOREIGN KEY(cno)
+		REFERENCES Course(cno),
+	CONSTRAINT pro_lec_fk FOREIGN KEY(pno)
+		REFERENCES Professor(pno),
+	CONSTRAINT lec_pk PRIMARY KEY(cno, pno)
+);

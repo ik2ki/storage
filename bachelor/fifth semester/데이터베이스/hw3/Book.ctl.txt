@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Book.csv'
+APPEND INTO TABLE Book
+FIELDS TERMINATED BY ','
+(ISBN,title,year,price)

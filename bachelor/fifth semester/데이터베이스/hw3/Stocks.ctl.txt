@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Stocks.csv'
+APPEND INTO TABLE Stocks
+FIELDS TERMINATED BY ','
+(ISBN,code,num)

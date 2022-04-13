@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Written_by.csv'
+APPEND INTO TABLE Written_by
+FIELDS TERMINATED BY ','
+(name,address,ISBN)

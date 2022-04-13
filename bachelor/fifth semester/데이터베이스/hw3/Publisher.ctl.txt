@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Publisher.csv'
+APPEND INTO TABLE Publisher
+FIELDS TERMINATED BY ','
+(name,address,phone,url)

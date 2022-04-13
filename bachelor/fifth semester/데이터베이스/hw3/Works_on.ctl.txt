@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Works_on.csv'
+APPEND INTO TABLE Work_on
+FIELDS TERMINATED BY ','
+(ssn,pnumber,hours)

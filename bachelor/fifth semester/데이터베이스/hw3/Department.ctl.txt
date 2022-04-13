@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Department.csv'
+APPEND INTO TABLE Department
+FIELDS TERMINATED BY ','
+(dnumber,dname, mgrstartdate,dlocation)

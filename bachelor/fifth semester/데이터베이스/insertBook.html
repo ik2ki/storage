@@ -1,0 +1,24 @@
+<%@ page contentType="text/html; charset=euc-kr" %>
+<%@ page import="java.sql.*" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+		<title>Data 삽입</title>
+	</head>
+	<body>
+		<p>새로운 책 등록</p>
+		<form name="form1" method="post" action="insertBook.jsp">
+			<p>ISBN : <input type="text" name="ISBN"></p>
+			<p>도서명 : <input type="text" name="title"></p>
+			<p>출간년도 : <input type="text" name="year"></p>
+			<p>가격 : <input type="text" name="price"></p>
+			<p>작가 : <input type="text" name="aname"></p>
+			<p>출판사 : <input type="text" name="pname"></p>
+			<p>창고코드 : <input type="text" name="code"></p>
+			<p>재고량 : <input type="text" name="num"></p>
+			<p><input type="submit" name="Submit" value="보내기"></p>
+		</form>
+	</body>
+</html>

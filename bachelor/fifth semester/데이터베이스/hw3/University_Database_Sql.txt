@@ -1,0 +1,24 @@
+1.
+a)
+SELECT sname FROM Student WHERE dept='CE';
+b)
+SELECT cname FROM Course c WHERE cno in (SELECT cno FROM Lecture l INNER JOIN Professor p ON l.pno=p.pno WHERE p.pname='Chun');
+c)
+SELECT DISTINCT sname, dept
+FROM Student
+ 
+where sno in
+(SELECT DISTINCT sno 
+FROM enroll 
+where sno = Student.sno and not(grade>'A'));
+d)
+SELECT DISTINCT sname, dept
+FROM student NATURAL JOIN enroll 
+WHERE  grade<>'A';
+e) 
+Delete from Lecture Where pno in
+(Select pno From Professor Where pdept = 'CS');
+
+Delete from Enroll Where cno LIKE 'CS%';
+
+Delete from Course Where cno LIKE 'CS%';

@@ -1,0 +1,41 @@
+2.
+a)
+Select fname,lname FROM Employee WHERE ssn in
+(Select ssn FROM Works_on w INNER JOIN Project p ON w.pnumber=p.pnumber  WHERE hours>=10 AND pname='X');
+b)
+Select fname,lname FROM Employee WHERE superssn =
+(SELECT ssn FROM Employee WHERE fname='Jonghoon' AND lname='Chun');
+c)
+Select pname,sum(hours) 
+FROM Project p INNER JOIN Works_on w
+ON p.pnumber=w.pnumber
+GROUP BY pname;
+d)
+Select fname,lname 
+From Employee
+Where ssn in
+(Select ssn
+FROM Project p INNER JOIN Works_on w
+ON p.pnumber=w.pnumber);
+e)
+SELECT e.fname,e.lname
+FROM Employee e 
+WHERE e.ssn not in
+(Select ssn FROM Works_on WHERE e.ssn=ssn);
+f)
+SELECT dname,avg(e.salary)
+FROM Employee e INNER JOIN Department d
+ON e.dno = d.dnumber
+GROUP BY dname;
+g)
+SELECT avg(e.salary)
+FROM Employee e
+Where e.sex='F';
+h)
+Select fname,lname,address
+From Employee 
+WHERE address='SEOUL'
+AND dno not in
+(Select dnumber
+FRom Department
+Where dlocation='SEOUL');

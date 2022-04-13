@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Author.csv'
+APPEND INTO TABLE Author
+FIELDS TERMINATED BY ','
+(name,address,url)

@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'Published_by.csv'
+APPEND INTO TABLE Published_by
+FIELDS TERMINATED BY ','
+(name,ISBN)

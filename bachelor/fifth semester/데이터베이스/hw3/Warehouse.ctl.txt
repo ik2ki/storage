@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE 'C:\Warehouse.csv'
+APPEND INTO TABLE Warehouse
+FIELDS TERMINATED BY ','
+(code,address,phone)
